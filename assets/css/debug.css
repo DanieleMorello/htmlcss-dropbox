@@ -1,0 +1,43 @@
+.debug > #app-header  {
+  background-color: blue;
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+.debug  .menu-left,
+.debug  .menu-right {
+  background-color: aqua;
+  flex-basis: 50%;
+}
+
+.debug .jumbotron {
+  background-color: aquamarine;
+  height: 50rem;
+  padding-top: 3rem;
+}
+
+.debug  .container {
+  background-color: #16be86;
+  height: 100%;
+  
+}
+
+.debug .plans {
+  background-color: blueviolet;
+  height: 70rem;
+  padding-top: 20rem;
+}
+
+.debug .cointainer-sm {
+  background-color: violet;
+  height: 50rem;
+}
+.debug .plans .col-4 {
+  background-color: brown;
+  height: 2rem;
+}
+
+.debug .plans {
+  background-color: cadetblue;
+  height: 50rem;
+}
