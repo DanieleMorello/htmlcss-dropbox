@@ -28,6 +28,12 @@ body {
 .d-flex {
   display: flex;
 }
+
+.container {
+  width: 70%;
+  max-width: 1150px;
+  margin: auto;
+}
 /* #endregion Utility Classes */
 
 /* #region Debug */
@@ -43,9 +49,16 @@ body {
   flex-basis: 50%;
 }
 
-.debug  .container {
+.debug .jumbotron {
   background-color: aquamarine;
+  height: 50rem;
+  padding-top: 3rem;
+}
+
+.debug  .container {
+  background-color: #16be86;
   height: 100%;
+  
 }
 /* #endregion Debug */
 
