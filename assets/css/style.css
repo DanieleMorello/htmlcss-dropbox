@@ -1,0 +1,44 @@
+/* #region Common */
+/* Root */
+:root
+{
+  --tb-shadow: #9d9d9d;
+  --tb-light: #f7f8f8;
+  --tb-ligher: #ffffff;
+  --tb-dark: #051930;
+  --tb-primary: #46adf0;
+  --tb-goals: #9d72e5;
+  --tb-recruiting: #64c1a8;
+  --tb-mobile: #f29e33;
+  --tb-website: #d962a1;
+  --tb-sales: #b1c927;
+  --tb-danger: red;
+}
+
+/* CSS RESET */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* #endregion Common */
+
+/* #region Utility Classes */
+/* #endregion Utility Classes */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+
