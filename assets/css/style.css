@@ -1,9 +1,12 @@
 /* #region Common */
 /* Root */
-/* :root
+:root
 {
-
-} */
+  --db-primary: #0061ff;
+  --db-secondary: #B4D0E7;
+  --db-dark: #000000;
+  --db--light: #ffffff;
+}
 
 /* CSS RESET */
 *
@@ -82,9 +85,14 @@ col-4 {
   background-color: violet;
   height: 50rem;
 }
-.debug .col-4 {
+.debug .plans .col-4 {
   background-color: brown;
   height: 2rem;
+}
+
+.debug .plans {
+  background-color: cadetblue;
+  height: 50rem;
 }
 /* #endregion Debug */
 
