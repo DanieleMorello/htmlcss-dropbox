@@ -34,6 +34,17 @@ body {
   max-width: 1150px;
   margin: auto;
 }
+
+.cointainer-sm {
+  width: 60%;
+  max-width: 840px;
+  margin: auto;
+}
+
+col-4 {
+  width: calc(100% / 12 * 4);
+  padding: 1rem;
+}
 /* #endregion Utility Classes */
 
 /* #region Debug */
@@ -59,6 +70,21 @@ body {
   background-color: #16be86;
   height: 100%;
   
+}
+
+.debug .plans {
+  background-color: blueviolet;
+  height: 70rem;
+  padding-top: 20rem;
+}
+
+.debug .cointainer-sm {
+  background-color: violet;
+  height: 50rem;
+}
+.debug .col-4 {
+  background-color: brown;
+  height: 2rem;
 }
 /* #endregion Debug */
 
