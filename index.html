@@ -1,112 +1,132 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dropbox</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!-- /font-awesome -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
-  <!-- /Font -->
-  <link rel="stylesheet" href="./assets/css/debug.css">
-  <!-- /Debug Css -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <!-- / Mio Css -->
-</head>
-<body class="debug">
-  <header id="app-header">
-    <div class="row">
-      <nav class="menu-left">
-    
-      </nav>
-      <nav class="menu-right">
-        
-      </nav>
-    </div>
-  </header>
-  <!-- /#app-header -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- /font-awesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap"
+      rel="stylesheet">
+    <!-- /Font -->
+    <link rel="stylesheet" href="./assets/css/debug.css">
+    <!-- /Debug Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- / Mio Css -->
+  </head>
+  <body class="">
+    <header id="app-header">
+      <nav class="d-flex">
+        <div class="menu-left">
+          <ul class="d-flex">
+            <li><img src="./assets/img/logo-small.png" alt="Logo"></li>
+            <li><a href="#">Perchè Dropbox</a></li>
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Pianie Prezzi</a></li>
+          </ul>
+        </div>
+        <div class="menu-right">
+          <ul class="d-flex">
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Contatta l'ufficio vendite</a></li>
+            <li><a href="#">Accedi</a></li>
+            <li>
+              <button id="button"> <!-- Da sistemare -->
+                <a href="#">Inizia</a>
+              </button>
 
-  <main id="app-main">
-    <section class="jumbotron">
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- /#app-header -->
+
+    <main id="app-main">
+      <section class="jumbotron">
+        <div class="container">
+          <div class="jumbo_text"></div>
+          <div class="jumbo_image"></div>
+        </div>
+      </section>
+      <!-- /.jumbotron -->
+
+      <section class="plans">
+        <div class="cointainer-sm">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-12"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /.plans -->
+
+      <section class="partner">
+        <div class="container-sm">
+          <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /.partner -->
+
+      <section class="business">
+        <div class="container-sm">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /.business -->
+
+      <section class="banner"></section>
+      <!-- /.banner -->
+
+      <section class="partners">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <!-- /.partners -->
+
+      <section class="banner"></section>
+      <!-- /.banner -->
+      <section class="faq"></section>
+      <!-- /.faq -->
+    </main>
+    <!-- /#app-main -->
+    <footer id="app-footer">
       <div class="container">
-        <div class="jumbo_text"></div>
-        <div class="jumbo_image"></div>
-      </div>
-    </section>
-    <!-- /.jumbotron -->
-
-    <section class="plans">
-      <div class="cointainer-sm">
         <div class="row">
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-12"></div>
+          <div class="dropbox"></div>
+          <!-- /.dropbox -->
+          <div class="prodotti"></div>
+          <!-- /.prodotti -->
+          <div class="azienda"></div>
+          <!-- /.azienda -->
+          <div class="supporto"></div>
+          <!-- /.supporto -->
+          <div class="comunity"></div>
+          <!-- /.comunity -->
+          <div class="lenguage"></div>
+          <!-- /.lenguage -->
         </div>
       </div>
-    </section>
-    <!-- /.plans -->
-
-    <section class="partner">
-      <div class="container-sm">
-        <div class="row">
-          <div class="col-8"></div>
-          <div class="col-4"></div>
-        </div>
-      </div>
-    </section>
-    <!-- /.partner -->
-
-    <section class="business">
-      <div class="container-sm">
-        <div class="row">
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
-        </div>
-      </div>
-    </section>
-    <!-- /.business -->
-
-    <section class="banner"></section>
-    <!-- /.banner -->
-
-    <section class="partners">
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
-    <!-- /.partners -->
-
-    <section class="banner"></section>
-    <!-- /.banner -->
-    <section class="faq"></section>
-    <!-- /.faq -->
-  </main>
-  <!-- /#app-main -->
-  <footer id="app-footer">
-    <div class="container">
-      <div class="row">
-        <div class="dropbox"></div>
-        <!-- /.dropbox -->
-        <div class="prodotti"></div>
-        <!-- /.prodotti -->
-        <div class="azienda"></div>
-        <!-- /.azienda -->
-        <div class="supporto"></div>
-        <!-- /.supporto -->
-        <div class="comunity"></div>
-        <!-- /.comunity -->
-        <div class="lenguage"></div>
-        <!-- /.lenguage -->
-      </div>
-    </div>
-  </footer>
-  <!-- /#app-footer -->
-</body>
+    </footer>
+    <!-- /#app-footer -->
+  </body>
 </html>

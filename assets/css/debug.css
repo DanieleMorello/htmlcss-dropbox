@@ -1,13 +1,14 @@
 .debug > #app-header  {
   background-color: blue;
   height: 4rem;
-  padding: 0.5rem;
 }
 
 .debug  .menu-left,
 .debug  .menu-right {
   background-color: aqua;
-  flex-basis: 50%;
+  flex-grow: 1;
+  height: 100px;
+  border: 2px dashed white;
 }
 
 .debug .jumbotron {

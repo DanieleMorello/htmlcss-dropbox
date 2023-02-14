@@ -6,6 +6,7 @@
   --db-secondary: #B4D0E7;
   --db-dark: #000000;
   --db--light: #ffffff;
+  --db--grey: #808080;
 }
 
 /* CSS RESET */
@@ -24,7 +25,6 @@ body {
 /* #region Utility Classes */
 .row {
   display: flex;
-  height: 100%;
   flex-wrap: wrap;
 }
 
@@ -51,6 +51,33 @@ col-4 {
 /* #endregion Utility Classes */
 
 /* #region Header */
+#app-header {
+  box-shadow: 0 0 20px var(--db--grey);
+}
+
+nav {
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  gap: 3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--db-dark);
+}
+
+#button {
+  background-color: var(--db-primary);
+  color: var(--db--light); /* Non lo prende */
+  border: none;
+  padding: 0.5rem;
+  width: 5rem;
+}
 /* #endregion Header */
 
 /* #region Main */
