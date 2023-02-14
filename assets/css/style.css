@@ -176,6 +176,12 @@ i {
 }
 /* #endregion partner */
 
+/* #region teams */
+.teams .cointainer-sm .div > h2{
+  margin: 3rem 0;
+}
+/* #endregion teams */
+
 /* #endregion Main */
 
 /* #region Footer */
