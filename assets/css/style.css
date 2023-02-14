@@ -95,10 +95,13 @@ nav ul li a {
 
 #button {
   background-color: var(--db-primary);
-  color: var(--db--light); /* Non lo prende */
   border: none;
   padding: 0.5rem;
   width: 5rem;
+}
+
+#button a {
+  color: var(--db--light);
 }
 /* #endregion Header */
 
