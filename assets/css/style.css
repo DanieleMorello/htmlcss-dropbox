@@ -93,14 +93,13 @@ nav ul li a {
   color: var(--db-dark);
 }
 
-#button {
+#start {
   background-color: var(--db-primary);
-  border: none;
-  padding: 0.5rem;
-  width: 5rem;
+  color: var(--db--light);
+  padding: 0.3rem 1.25rem;
 }
 
-#button a {
+#start a {
   color: var(--db--light);
 }
 /* #endregion Header */
