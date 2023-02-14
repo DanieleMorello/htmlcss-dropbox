@@ -48,6 +48,14 @@ col-4 {
   width: calc(100% / 12 * 4);
   padding: 1rem;
 }
+
+img {
+  max-width: 100%;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -81,6 +89,45 @@ nav ul li a {
 /* #endregion Header */
 
 /* #region Main */
+.jumbotron {
+  background-color: var(--db-secondary);
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  padding-bottom: 5rem;
+}
+
+.jumbo_text {
+  width: 40%;
+  flex-direction: column;
+}
+
+.jumbo_text > p {
+  text-align: justify;
+  
+}
+
+.jumbo_text button {
+  margin: 2rem 0;
+}
+
+.jumbo_image {
+  width: 60%;
+  position: relative;
+}
+
+.jumbo_image > img {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+i {
+  padding-bottom: 2rem;
+}
 /* #endregion Main */
 
 /* #region Footer */
