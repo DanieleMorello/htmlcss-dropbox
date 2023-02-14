@@ -7,6 +7,7 @@
   --db-dark: #000000;
   --db--light: #ffffff;
   --db--grey: #808080;
+  --db--lightgrey: #e8e8e9;
   --db--brown: #61072b;
 }
 
@@ -175,12 +176,20 @@ i {
 /* #region plans */
 .plans {
   margin-top: 10rem;
-  border: 1px solid var(--db--grey);
+}
+
+.plans h2 {
+  font-size: 2.5rem;
 }
 
 .card {
-  border: 1px solid red;
-  text-align: center;
+  border: 1px solid var(--db--lightgrey); 
+}
+
+.card div:first-of-type {
+  justify-content: center;
+  margin-top: 1rem;
+  border-bottom: 1px solid var(--db--lightgrey);
 }
 /* #endregion plans */
 
@@ -201,6 +210,20 @@ i {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+.partner h3 {
+  font-size: 1.35rem;
+  margin-bottom: 1.5rem;
+}
+
+.partner button {
+  padding: 0.5rem;
+  width: 8rem;
+  align-self: flex-start;
+  margin-top: 2rem;
+  background-color: var(--db--light);
+  border: 2px solid var(--db--grey);
 }
 /* #endregion partner */
 
