@@ -183,16 +183,26 @@ i {
 }
 /* #endregion teams */
 
-
+/* #region call-to-action */
 .call-to-action {
   background-color: var(--db-secondary);
   /* margin: 5rem 0; */
-  padding: 10rem 0;
+  padding: 8.5rem 0;
 }
 
 .call-to-action h2 {
   color: var(--db--brown);
 }
+/* #endregion call-to-action */
+
+/* #region faq */
+.faq h2 {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+
+/* #endregion faq */
 /* #endregion Main */
 
 /* #region Footer */
