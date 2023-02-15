@@ -250,6 +250,10 @@ nav ul li a {
     padding-top: 1rem;
 }
 
+.plans .card-header {
+  padding-bottom: 1rem;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
