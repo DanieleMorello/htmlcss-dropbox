@@ -22,12 +22,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.card-body h3 {
+  margin-top: 2rem;
+  font-size: 1.9rem;
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -1rem;
 }
 
 .d-flex {
@@ -46,6 +52,15 @@ body {
 
 .col-4 {
   width: calc(100% / 12 * 4);
+  
+}
+
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
 }
 
 .col-8 {
@@ -58,6 +73,10 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.mr-3 {
+  margin-right: 3rem;
 }
 
 .mb-3 {
@@ -82,6 +101,35 @@ img {
 
 .pt-5 {
   padding-top: 5rem;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
+.text-light {
+  color: var(--db--grey);
+}
+
+.btn-primary {
+  background-color: var(--db-primary);
+  color: var(--db--light);
+  border: none;
+  width: 13.6rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.check-blue {
+  color: var(--db-primary);
+}
+
+.list-unstyle {
+  list-style: none;
 }
 /* #endregion Utility Classes */
 
@@ -183,13 +231,30 @@ i {
 }
 
 .card {
-  border: 1px solid var(--db--lightgrey); 
+
 }
 
-.card div:first-of-type {
-  justify-content: center;
-  margin-top: 1rem;
-  border-bottom: 1px solid var(--db--lightgrey);
+.card-header{
+  border: 1px solid var(--db--lightgrey);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.card-body {
+  border: 1px solid var(--db--lightgrey);
+  display: flex;
+  flex-direction: column;
+}
+
+.col-12 .card-body {
+  padding: 2rem;
+  flex-direction: row;
+}
+
+.col-12 .card-body h3 {
+  margin-top: 0;
 }
 /* #endregion plans */
 
@@ -231,18 +296,31 @@ i {
 .teams .cointainer-sm .div > h2{
   margin: 3rem 0;
 }
+
+.teams h2 {
+  margin: 10rem 0;
+}
 /* #endregion teams */
 
 /* #region call-to-action */
 .call-to-action {
   background-color: var(--db-secondary);
-  /* margin: 5rem 0; */
   padding: 8.5rem 0;
 }
 
 .call-to-action h2 {
   color: var(--db--brown);
+  font-size: 3rem;
 }
+
+.call-to-action button {
+  border: none;
+  padding: 1rem;
+  width: 18rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
 /* #endregion call-to-action */
 
 /* #region faq */
@@ -251,11 +329,21 @@ i {
   padding-bottom: 3rem;
 }
 
+hr {
+  margin: 2rem 0;
+}
 
+.faq i {
+  margin-left: 16rem;
+}
 /* #endregion faq */
 /* #endregion Main */
 
 /* #region Footer */
+footer {
+  background-color: var(--db-dark);
+  color: var(--db--light);
+}
 /* #endregion Footer */
 
 
