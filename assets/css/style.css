@@ -124,6 +124,7 @@ img {
 
 .text-light {
   color: var(--db--grey);
+  padding-top: 0.5rem;
 }
 
 .btn-primary {
@@ -263,9 +264,18 @@ nav ul li a {
   border: 1px solid var(--db--lightgrey);
 }
 
+.plans .card-body li {
+  padding: 1rem 0;
+}
+
 .plans .card-body h3 {
   margin-top: 2rem;
   font-size: 1.9rem;
+}
+
+.plans .card-body hr {
+  color: var(--db--lightgrey);
+  width: 20%;
 }
 
 .col-12 .card-body {
@@ -275,6 +285,11 @@ nav ul li a {
 
 .col-12 .card-body h3 {
   margin-top: 0;
+}
+
+.col-12 .col-5 {
+  display: flex;
+  justify-content: flex-end;
 }
 /* #endregion plans */
 
