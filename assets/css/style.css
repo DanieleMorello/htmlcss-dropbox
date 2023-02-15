@@ -66,6 +66,9 @@ body {
   width: 100%;
 }
 
+.col-1-5 {
+  width: calc(100% / 5);
+}
 img {
   max-width: 100%;
 }
@@ -138,6 +141,10 @@ img {
 
 .list-unstyle {
   list-style: none;
+}
+
+.hr-sm {
+  width: 10%;
 }
 /* #endregion Utility Classes */
 
@@ -376,6 +383,20 @@ hr {
 footer {
   background-color: var(--db-dark);
   color: var(--db--light);
+}
+
+footer h3 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+footer li {
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: var(--db--lightgrey);
+  text-decoration: none;
 }
 /* #endregion Footer */
 
