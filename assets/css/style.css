@@ -22,11 +22,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
-.card-body h3 {
-  margin-top: 2rem;
-  font-size: 1.9rem;
-}
 /* #endregion Common */
 
 /* #region Utility Classes */
@@ -75,6 +70,10 @@ img {
   max-width: 100%;
 }
 
+.ml-3 {
+  margin-left: 3rem;
+}
+
 .mr-3 {
   margin-right: 3rem;
 }
@@ -103,12 +102,21 @@ img {
   padding-top: 5rem;
 }
 
+
+.pt-9 {
+  padding-top: 9rem;
+}
 .pl-1 {
   padding-left: 1rem;
 }
 
 .pl-2 {
   padding-left: 2rem;
+}
+
+
+.pl-3 {
+  padding-left: 3rem;
 }
 
 .text-light {
@@ -239,9 +247,17 @@ i {
 }
 
 .card-body {
-  border: 1px solid var(--db--lightgrey);
   display: flex;
   flex-direction: column;
+}
+
+.plans .card-body {
+  border: 1px solid var(--db--lightgrey);
+}
+
+.plans .card-body h3 {
+  margin-top: 2rem;
+  font-size: 1.9rem;
 }
 
 .col-12 .card-body {
@@ -253,6 +269,27 @@ i {
   margin-top: 0;
 }
 /* #endregion plans */
+
+/* #region business */
+.business h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+.business .card-header img {
+  width: 100%;
+}
+
+.business .card-body h3 {
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.business .card-body p {
+  margin-bottom: 3rem;
+}
+/* #endregion business */
 
 /* #region partner */
 .partner img {
