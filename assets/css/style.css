@@ -1,9 +1,8 @@
 /* #region Common */
 /* Root */
-:root
-{
+:root {
   --db-primary: #0061ff;
-  --db-secondary: #B4D0E7;
+  --db-secondary: #b4d0e7;
   --db-dark: #000000;
   --db--light: #ffffff;
   --db--grey: #808080;
@@ -21,15 +20,14 @@
 }
 
 /* CSS RESET */
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* #endregion Common */
 
@@ -133,7 +131,6 @@ img {
   padding-top: 5rem;
 }
 
-
 .pt-9 {
   padding-top: 9rem;
 }
@@ -144,7 +141,6 @@ img {
 .pl-2 {
   padding-left: 2rem;
 }
-
 
 .pl-3 {
   padding-left: 3rem;
@@ -240,7 +236,6 @@ nav ul li a {
   padding-bottom: 1rem;
 }
 
-
 .jumbo_text {
   width: 40%;
   flex-direction: column;
@@ -248,7 +243,6 @@ nav ul li a {
 
 .jumbo_text > p {
   text-align: justify;
-  
 }
 
 .jumbo_text button {
@@ -265,7 +259,7 @@ nav ul li a {
   justify-self: flex-start;
 }
 
-.jumbo_image  img {
+.jumbo_image img {
   margin-bottom: -7rem;
   margin-top: -20rem;
   margin-left: 30rem;
@@ -287,7 +281,7 @@ nav ul li a {
   margin-right: 3rem;
 }
 
-.card-header{
+.card-header {
   padding: 0 2rem;
   display: flex;
   justify-content: center;
@@ -376,7 +370,7 @@ nav ul li a {
   /* margin-left: 1rem; */
 }
 
-#partner .col-4{
+#partner .col-4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -400,7 +394,7 @@ nav ul li a {
 /* #endregion partner */
 
 /* #region teams */
-#teams .cointainer-sm .div > h2{
+#teams .cointainer-sm .div > h2 {
   margin: 3rem 0;
 }
 
@@ -422,34 +416,56 @@ nav ul li a {
   color: var(--db--light);
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 #arizona-state-university {
   background-color: var(--db-arizona-state-university);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #university-of-florida {
   background-color: var(--db-university-of-florida);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #topps {
   background-color: var(--db-topps);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #world-bicycle-relief {
   background-color: var(--db-world-bicycle-relief);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #hearst-corp {
   background-color: var(--db-hearst-corp);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #lonely-planet {
   background-color: var(--db-lonely-planet);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #clear-channel {
   background-color: var(--db-clear-channel);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 /* #endregion partners */
 
@@ -518,5 +534,3 @@ footer a {
   padding-bottom: 2rem;
 }
 /* #endregion Footer */
-
-
