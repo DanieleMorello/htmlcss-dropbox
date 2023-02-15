@@ -8,7 +8,16 @@
   --db--light: #ffffff;
   --db--grey: #808080;
   --db--lightgrey: #e8e8e9;
+  --db-other-gray: #f5f5f5;
   --db--brown: #61072b;
+  --db--designit: #a2d39b;
+  --db-arizona-state-university: #61082b;
+  --db-university-of-florida: #0093ce;
+  --db-topps: #ff1c1c;
+  --db-world-bicycle-relief: #d5001f;
+  --db-hearst-corp: #b4d0e7;
+  --db-lonely-planet: #0d2481;
+  --db-clear-channel: #ffd830;
 }
 
 /* CSS RESET */
@@ -35,6 +44,10 @@ body {
   display: flex;
 }
 
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 .container {
   max-width: 1150px;
   margin: auto;
@@ -45,13 +58,24 @@ body {
   margin: auto;
 }
 
+.container-big {
+  width: 100%;
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
 .col-4 {
   width: calc(100% / 12 * 4);
-  
 }
 
 .col-5 {
   width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
 }
 
 .col-7 {
@@ -93,6 +117,10 @@ img {
   margin-bottom: 5rem;
 }
 
+.p-3 {
+  padding: 3rem;
+}
+
 .pt-2 {
   padding-top: 2rem;
 }
@@ -122,9 +150,17 @@ img {
   padding-left: 3rem;
 }
 
+.pr-2 {
+  padding-right: 2rem;
+}
+
 .text-light {
   color: var(--db--grey);
   padding-top: 0.5rem;
+}
+
+.text-white {
+  color: var(--db--light);
 }
 
 .btn-primary {
@@ -146,6 +182,14 @@ img {
 
 .hr-sm {
   width: 10%;
+}
+
+.hr-sm-4 {
+  width: 40%;
+}
+
+.bg-lightgray {
+  background-color: var(--db-other-gray);
 }
 /* #endregion Utility Classes */
 
@@ -183,7 +227,7 @@ nav ul li a {
 
 /* #region Main */
 /* #region jumbotron */
-.jumbotron {
+#jumbotron {
   background-color: var(--db-secondary);
   padding-top: 6rem;
   text-align: center;
@@ -221,37 +265,36 @@ nav ul li a {
   justify-self: flex-start;
 }
 
-.jumbo_image {
-  width: 80%;
-  position: relative;
-}
-
-.jumbo_image > img {
-  width: 100%;
-  position: absolute;
-  top: 265px;
-  right: 0;
+.jumbo_image  img {
+  margin-bottom: -7rem;
+  margin-top: -20rem;
+  margin-left: 30rem;
 }
 /* #endregion jumbotron */
 
 /* #region plans */
-.plans {
+#plans {
   margin-top: 10rem;
 }
 
-.plans h2 {
+#plans h2 {
   font-size: 2.5rem;
 }
 
-.card-header{
-  border: 1px solid var(--db--lightgrey);
-    padding: 0 2rem;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
+#plans .card {
+  min-height: calc(100% + 3rem);
+  border: 1px solid var(--db--grey);
+  margin-right: 3rem;
 }
 
-.plans .card-header {
+.card-header{
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+#plans .card-header {
   padding-bottom: 1rem;
 }
 
@@ -260,25 +303,33 @@ nav ul li a {
   flex-direction: column;
 }
 
-.plans .card-body {
-  border: 1px solid var(--db--lightgrey);
+#plans .card-body {
+  border-top: 1px solid var(--db--grey);
 }
 
-.plans .card-body li {
+#plans .card-body li {
   padding: 1rem 0;
 }
 
-.plans .card-body h3 {
+#plans .card-body h3 {
   margin-top: 2rem;
   font-size: 1.9rem;
 }
 
-.plans .card-body hr {
-  color: var(--db--lightgrey);
+#plans .card-body hr {
+  color: var(--db--grey);
   width: 20%;
 }
 
+.col-12 .card-header {
+  border-top: 1px solid var(--db--grey);
+  border-left: 1px solid var(--db--grey);
+  border-right: 1px solid var(--db--grey);
+  margin-top: 4rem;
+}
+
 .col-12 .card-body {
+  border: 1px solid var(--db--grey);
   padding: 2rem;
   flex-direction: row;
 }
@@ -294,38 +345,38 @@ nav ul li a {
 /* #endregion plans */
 
 /* #region business */
-.business h2 {
+#business h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
   padding-bottom: 3rem;
 }
 
-.business .card-header img {
+#business .card-header img {
   width: 100%;
 }
 
-.business .card-body h3 {
+#business .card-body h3 {
   margin-bottom: 2rem;
   margin-right: 1rem;
 }
 
-.business .card-body p {
+#business .card-body p {
   margin-bottom: 3rem;
 }
 /* #endregion business */
 
 /* #region partner */
-.partner img {
+#partner img {
   width: 640px;
   /* margin: 10rem 17rem; */
 }
 
-.partner .col-8 {
+#partner .col-8 {
   margin-top: 10rem;
   /* margin-left: 1rem; */
 }
 
-.partner .col-4{
+#partner .col-4{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -333,12 +384,12 @@ nav ul li a {
   padding: 2rem;
 }
 
-.partner h3 {
+#partner h3 {
   font-size: 1.35rem;
   margin-bottom: 1.5rem;
 }
 
-.partner button {
+#partner button {
   padding: 0.5rem;
   width: 8rem;
   align-self: flex-start;
@@ -349,27 +400,71 @@ nav ul li a {
 /* #endregion partner */
 
 /* #region teams */
-.teams .cointainer-sm .div > h2{
+#teams .cointainer-sm .div > h2{
   margin: 3rem 0;
 }
 
-.teams h2 {
+#teams h2 {
   margin: 10rem 0;
 }
 /* #endregion teams */
 
+/* #region partners */
+#partners {
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#designit {
+  background-color: var(--db--designit);
+  color: var(--db--light);
+  justify-content: center;
+  align-items: center;
+}
+
+#arizona-state-university {
+  background-color: var(--db-arizona-state-university);
+}
+
+#university-of-florida {
+  background-color: var(--db-university-of-florida);
+}
+
+#topps {
+  background-color: var(--db-topps);
+}
+
+#world-bicycle-relief {
+  background-color: var(--db-world-bicycle-relief);
+}
+
+#hearst-corp {
+  background-color: var(--db-hearst-corp);
+}
+
+#lonely-planet {
+  background-color: var(--db-lonely-planet);
+}
+
+#clear-channel {
+  background-color: var(--db-clear-channel);
+}
+/* #endregion partners */
+
 /* #region call-to-action */
-.call-to-action {
+#call-to-action {
   background-color: var(--db-secondary);
   padding: 8.5rem 0;
 }
 
-.call-to-action h2 {
+#call-to-action h2 {
   color: var(--db--brown);
   font-size: 3rem;
 }
 
-.call-to-action button {
+#call-to-action button {
   border: none;
   padding: 1rem;
   width: 18rem;
@@ -380,7 +475,11 @@ nav ul li a {
 /* #endregion call-to-action */
 
 /* #region faq */
-.faq h2 {
+#faq {
+  margin-bottom: 6rem;
+}
+
+#faq h2 {
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
@@ -389,7 +488,7 @@ hr {
   margin: 2rem 0;
 }
 
-.faq i {
+#faq i {
   margin-left: 16rem;
 }
 /* #endregion faq */
@@ -413,6 +512,10 @@ footer li {
 footer a {
   color: var(--db--lightgrey);
   text-decoration: none;
+}
+
+#footer-bottom {
+  padding-bottom: 2rem;
 }
 /* #endregion Footer */
 
