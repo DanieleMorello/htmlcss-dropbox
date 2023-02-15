@@ -186,6 +186,7 @@ nav ul li a {
   background-color: var(--db-secondary);
   padding-top: 6rem;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 #title {
