@@ -221,12 +221,12 @@ nav ul li a {
 
 #start {
   background-color: var(--db-primary);
-  color: var(--db--light);
+  color: var(--db-light);
   padding: 0.3rem 1.25rem;
 }
 
 #start a {
-  color: var(--db--light);
+  color: var(--db-light);
 }
 /* #endregion Header */
 
