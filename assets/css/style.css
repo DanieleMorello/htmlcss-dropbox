@@ -419,14 +419,30 @@ nav ul li a {
   overflow: hidden;
 }
 
+#partners-logo .col-6 {
+  aspect-ratio: 1 / 1;
+  padding: 3rem;
+}
+
+#partners-logo img {
+  filter: invert(1);
+}
+
+#cit img {
+  filter: invert(0);
+}
+
 #designit {
   background-color: var(--db-designit);
-  color: var(--db--light);
   justify-content: center;
   align-items: center;
   display: flex;
   padding: 1rem;
 }
+
+img.white {
+  filter: grayscale(100%);
+} 
 
 #arizona-state-university {
   background-color: var(--db-arizona-state-university);
