@@ -201,6 +201,11 @@ img {
 /* #region Header */
 #app-header {
   box-shadow: 0 0 20px var(--db-grey);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--db-light);
 }
 
 nav {
