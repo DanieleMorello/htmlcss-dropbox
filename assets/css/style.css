@@ -9,7 +9,7 @@
   --db--lightgrey: #e8e8e9;
   --db-other-gray: #f5f5f5;
   --db--brown: #61072b;
-  --db--designit: #a2d39b;
+  --db--designit: #d1e9cd;
   --db-arizona-state-university: #61082b;
   --db-university-of-florida: #0093ce;
   --db-topps: #ff1c1c;
@@ -168,8 +168,12 @@ img {
   cursor: pointer;
 }
 
-.check-blue {
+.blue {
   color: var(--db-primary);
+}
+
+.square-green {
+  background-color: #a2d39b;
 }
 
 .list-unstyle {
@@ -417,6 +421,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   display: flex;
+  padding: 1rem;
 }
 
 #arizona-state-university {
