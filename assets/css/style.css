@@ -17,6 +17,7 @@
   --db-hearst-corp: #b4d0e7;
   --db-lonely-planet: #0d2481;
   --db-clear-channel: #ffd830;
+  --db-link: #3b3bf2;
 }
 
 /* CSS RESET */
@@ -196,6 +197,10 @@ img {
 .bg-lightgray {
   background-color: var(--db-other-gray);
 }
+
+a {
+  color: var(--db-link);
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -222,6 +227,10 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: var(--db-dark);
+}
+
+#app-header ul li a:hover {
+  border-bottom: 2px solid var(--db-dark);
 }
 
 #start {
@@ -257,6 +266,11 @@ nav ul li a {
 
 .jumbo_text > p {
   text-align: justify;
+}
+
+.jumbo_text i {
+  color: #000000;
+  justify-self: flex-start;
 }
 
 .jumbo_text button {
@@ -384,6 +398,16 @@ nav ul li a {
   background-color: var(--db-light);
   border: 2px solid var(--db-grey);
 }
+
+#partner button a {
+  text-decoration: none;
+  color: var(--db-grey);
+}
+
+#partner button a:hover,
+#call-to-action button a:hover {
+  opacity: .6;
+}
 /* #endregion partner */
 
 /* #region business */
@@ -445,10 +469,6 @@ nav ul li a {
   display: flex;
   padding: 1rem;
 }
-
-img.white {
-  filter: grayscale(100%);
-} 
 
 #arizona-state-university {
   background-color: var(--db-arizona-state-university);
@@ -519,6 +539,10 @@ img.white {
   cursor: pointer;
 }
 
+#call-to-action button a {
+  text-decoration: none;
+  color: var(--db-dark);
+}
 /* #endregion call-to-action */
 
 /* #region faq */
@@ -530,6 +554,11 @@ img.white {
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
+
+#faq span:hover {
+  content: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>";
+}
+
 
 hr {
   margin: 2rem 0;
