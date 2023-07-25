@@ -36,7 +36,7 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1rem;
+  /* margin: 0 -1rem; */
 }
 
 .d-flex {
@@ -50,11 +50,13 @@ body {
 .container {
   max-width: 1150px;
   margin: auto;
+  border: 1px solid red;
 }
 
 .cointainer-sm {
   max-width: 1000px;
   margin: auto;
+  border: 1px solid green;
 }
 
 .container-big {
@@ -339,7 +341,7 @@ nav ul li a {
 }
 
 #plans .card-body hr {
-  color: var(--db--grey);
+  color: var(--db-grey);
   width: 20%;
 }
 
@@ -374,7 +376,7 @@ nav ul li a {
 
 #partner .col-8 {
   margin-top: 10rem;
-  /* margin-left: 1rem; */
+  margin-left: 1rem;
 }
 
 #partner .col-4 {
@@ -406,7 +408,7 @@ nav ul li a {
 
 #partner button a:hover,
 #call-to-action button a:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 /* #endregion partner */
 
@@ -558,7 +560,6 @@ nav ul li a {
 #faq span:hover {
   content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."; /* Non funziona come mi aspetto */
 }
-
 
 hr {
   margin: 2rem 0;
