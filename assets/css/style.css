@@ -204,7 +204,7 @@ a {
 /* #endregion Utility Classes */
 
 /* #region Header */
-#app-header {
+#app_header {
   box-shadow: 0 0 20px var(--db-grey);
   position: fixed;
   top: 0;
@@ -229,7 +229,7 @@ nav ul li a {
   color: var(--db-dark);
 }
 
-#app-header ul li a:hover {
+#app_header ul li a:hover {
   border-bottom: 2px solid var(--db-dark);
 }
 
