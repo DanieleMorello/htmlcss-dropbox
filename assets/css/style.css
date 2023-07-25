@@ -307,7 +307,6 @@ nav ul li a {
 #plans .card {
   min-height: calc(100% + 3rem);
   border: 1px solid var(--db-grey);
-  margin-right: 3rem;
 }
 
 .card-header {
