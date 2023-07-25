@@ -36,7 +36,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 -1rem; */
 }
 
 .d-flex {
@@ -181,7 +180,6 @@ img {
 
 .square-green {
   background-color: #a2d39b;
-  padding: -2rem;
 }
 
 .list-unstyle {
@@ -570,7 +568,7 @@ hr {
 }
 
 #faq i:hover {
-  rotate: 180deg;
+  transform: rotate(180deg);
 }
 /* #endregion faq */
 /* #endregion Main */
