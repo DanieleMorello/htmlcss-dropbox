@@ -205,11 +205,11 @@ a {
 
 /* #region Header */
 #app_header {
-  box-shadow: 0 0 20px var(--db-grey);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0 0 20px var(--db-grey);
   background-color: var(--db-light);
 }
 
@@ -234,6 +234,7 @@ nav ul li a {
 }
 
 #start {
+  box-shadow: 0 5px 10px 0 var(--db-grey);
   background-color: var(--db-primary);
   color: var(--db-light);
   padding: 0.3rem 1.25rem;
