@@ -109,6 +109,10 @@ img {
   margin-right: 3rem;
 }
 
+.mt-1 {
+  margin-top: 1rem;
+}
+
 .mt-2 {
   margin-top: 2rem;
 }
@@ -413,7 +417,7 @@ nav ul li a {
 }
 
 #partner div a:hover,
-#call-to-action button a:hover {
+#call-to-action .button a:hover {
   background-color: var(--db-lightgrey);
 }
 /* #endregion partner */
@@ -539,17 +543,18 @@ nav ul li a {
   font-size: 3rem;
 }
 
-#call-to-action button {
+#call-to-action .button {
   border: none;
-  padding: 1rem;
   width: 18rem;
   margin: 1rem 0;
   cursor: pointer;
 }
 
-#call-to-action button a {
+#call-to-action .button a {
+  padding: 1rem;
   text-decoration: none;
   color: var(--db-dark);
+  background-color: var(--db-light);
 }
 /* #endregion call-to-action */
 
