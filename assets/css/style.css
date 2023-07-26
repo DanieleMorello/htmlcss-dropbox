@@ -2,6 +2,7 @@
 /* Root */
 :root {
   --db-primary: #0061ff;
+  --db-primary-light: #3c87ff;
   --db-secondary: #b4d0e7;
   --db-dark: #000000;
   --db-light: #ffffff;
@@ -328,6 +329,13 @@ nav ul li a {
   color: var(--db-light);
   border: none;
   padding: 1.25rem;
+  cursor: pointer;
+}
+
+.jumbo_text button:hover,
+#start:hover,
+#plans button:hover {
+  background-color: var(--db-primary-light);
 }
 
 .jumbo_text button,
