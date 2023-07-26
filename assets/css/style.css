@@ -201,6 +201,11 @@ img {
 a {
   color: var(--db-link);
 }
+
+input:checked {
+  border: 0.7 solid #0388fc;
+  background-color: #02e4e7cc;
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -382,7 +387,6 @@ nav ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
 }
 
 #partner h3 {
