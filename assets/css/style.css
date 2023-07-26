@@ -42,8 +42,24 @@ body {
   display: flex;
 }
 
+.d-block {
+  display: block;
+}
+
 .f-wrap {
   flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .container {
@@ -572,22 +588,33 @@ nav ul li a {
   padding-bottom: 3rem;
 }
 
-#faq span:hover {
-  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."; /* Non funziona come mi aspetto */
+.question {
+  padding-right: 13rem;
+}
+
+.answer,
+.fa-chevron-up {
+  display: none;
+}
+
+#faq .col-12 div:hover .answer,
+#faq .col-12 div:hover .fa-chevron-up {
+  display: inline-block;
+}
+
+#faq .col-12 div:hover .fa-chevron-down {
+  display: none;
 }
 
 hr {
   margin: 2rem 0;
 }
 
-#faq i {
+/* #faq i {
   margin-left: 16rem;
-}
-
-#faq i:hover {
-  transform: rotate(180deg);
-}
+} */
 /* #endregion faq */
+
 /* #endregion Main */
 
 /* #region Footer */
