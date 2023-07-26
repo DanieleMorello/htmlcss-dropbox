@@ -133,6 +133,10 @@ img {
   padding-top: 2rem;
 }
 
+.pt-3 {
+  padding-top: 3rem;
+}
+
 .pt-4 {
   padding-top: 4rem;
 }
@@ -163,6 +167,14 @@ img {
 .text-light {
   color: var(--db-grey);
   padding-top: 0.5rem;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
 }
 
 .text-white {
@@ -212,7 +224,7 @@ input:checked {
 }
 
 .shadow {
-  box-shadow: 0 0 20px var(--db-grey);
+  box-shadow: 0 0 10px var(--db-grey);
 }
 /* #endregion Utility Classes */
 
@@ -309,7 +321,7 @@ nav ul li a {
 
 /* #region plans */
 #plans {
-  margin-top: 10rem;
+  margin: 10rem 0;
 }
 
 #plans h2 {
@@ -384,40 +396,25 @@ nav ul li a {
   /* margin: 10rem 17rem; */
 }
 
-#partner .col-8 {
-  margin-top: 10rem;
-  margin-left: 1rem;
-}
-
-#partner .col-4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #partner h3 {
   font-size: 1.35rem;
   margin-bottom: 1.5rem;
 }
 
-#partner button {
+#partner div a {
   padding: 0.5rem;
   width: 8rem;
   align-self: flex-start;
   margin-top: 2rem;
   background-color: var(--db-light);
-  border: 2px solid var(--db-grey);
-}
-
-#partner button a {
+  border: 1px solid var(--db-dark);
   text-decoration: none;
-  color: var(--db-grey);
+  color: var(--db-dark);
 }
 
-#partner button a:hover,
+#partner div a:hover,
 #call-to-action button a:hover {
-  opacity: 0.6;
+  background-color: var(--db-lightgrey);
 }
 /* #endregion partner */
 
