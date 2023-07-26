@@ -640,4 +640,11 @@ footer a {
 #footer-bottom {
   padding-bottom: 2rem;
 }
+
+#language {
+  color: var(--db-grey);
+}
+#footer-bottom span {
+  padding: 0 0.5rem;
+}
 /* #endregion Footer */
