@@ -210,6 +210,10 @@ input:checked {
   border: 0.7 solid #0388fc;
   background-color: #02e4e7cc;
 }
+
+.shadow {
+  box-shadow: 0 0 20px var(--db-grey);
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -218,7 +222,6 @@ input:checked {
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 0 20px var(--db-grey);
   background-color: var(--db-light);
 }
 
