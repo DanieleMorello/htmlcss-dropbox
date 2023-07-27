@@ -31,6 +31,14 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
@@ -127,6 +135,10 @@ img {
 
 .ml-3 {
   margin-left: 3rem;
+}
+
+.ml-4 {
+  margin-left: -4rem;
 }
 
 .mr-1 {
@@ -281,6 +293,7 @@ nav {
   padding: 1.5rem;
   justify-content: space-between;
   align-items: center;
+  height: 5rem;
 }
 
 nav ul {
@@ -291,6 +304,9 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: var(--db-dark);
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
 
 #app_header ul li a:hover {
@@ -302,6 +318,7 @@ nav ul li a {
   background-color: var(--db-primary);
   color: var(--db-light);
   padding: 0.3rem 1.25rem;
+  height: 3rem;
 }
 
 #start a {
@@ -471,6 +488,7 @@ nav ul li a {
   text-align: center;
   font-size: 2.8rem;
   padding-bottom: 3rem;
+  margin-left: -2rem;
 }
 
 #business .card-header img {
