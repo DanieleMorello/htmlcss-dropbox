@@ -39,6 +39,7 @@ nav ul li a {
   height: 2rem;
   margin-top: 1.5rem;
   border: none;
+  cursor: pointer;
 }
 
 #start a {
