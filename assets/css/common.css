@@ -1,0 +1,42 @@
+/* #region Common */
+/* Root */
+:root {
+  --db-primary: #0061ff;
+  --db-primary-light: #3c87ff;
+  --db-secondary: #b4d0e7;
+  --db-dark: #000000;
+  --db-light: #ffffff;
+  --db-grey: #808080;
+  --db-lightgrey: #e8e8e9;
+  --db-other-gray: #f5f5f5;
+  --db-brown: #61072b;
+  --db-designit: #d1e9cd;
+  --db-arizona-state-university: #61082b;
+  --db-university-of-florida: #0093ce;
+  --db-topps: #ff1c1c;
+  --db-world-bicycle-relief: #d5001f;
+  --db-hearst-corp: #b4d0e7;
+  --db-lonely-planet: #0d2481;
+  --db-clear-channel: #ffd830;
+  --db-link: #3b3bf2;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+/* #endregion Common */

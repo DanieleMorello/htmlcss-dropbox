@@ -1,46 +1,3 @@
-/* #region Common */
-/* Root */
-:root {
-  --db-primary: #0061ff;
-  --db-primary-light: #3c87ff;
-  --db-secondary: #b4d0e7;
-  --db-dark: #000000;
-  --db-light: #ffffff;
-  --db-grey: #808080;
-  --db-lightgrey: #e8e8e9;
-  --db-other-gray: #f5f5f5;
-  --db-brown: #61072b;
-  --db-designit: #d1e9cd;
-  --db-arizona-state-university: #61082b;
-  --db-university-of-florida: #0093ce;
-  --db-topps: #ff1c1c;
-  --db-world-bicycle-relief: #d5001f;
-  --db-hearst-corp: #b4d0e7;
-  --db-lonely-planet: #0d2481;
-  --db-clear-channel: #ffd830;
-  --db-link: #3b3bf2;
-}
-
-/* CSS RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-h2 {
-  font-size: 2.8rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-/* #endregion Common */
-
 /* #region Utility Classes */
 .row {
   display: flex;
@@ -56,30 +13,6 @@ h3 {
   display: flex;
 }
 
-.compensated-margin {
-  margin: 1rem 0;
-}
-
-.d-block {
-  display: block;
-}
-
-.f-wrap {
-  flex-wrap: wrap;
-}
-
-.justify-content-between {
-  justify-content: space-between;
-}
-
-.justify-content-around {
-  justify-content: space-around;
-}
-
-.align-center {
-  align-items: center;
-}
-
 .container {
   max-width: 1150px;
   margin: auto;
@@ -88,14 +21,6 @@ h3 {
 .cointainer-sm {
   max-width: 1000px;
   margin: auto;
-}
-
-.container-big {
-  width: 100%;
-}
-
-.col-2 {
-  width: calc(100% / 12 * 2);
 }
 
 .col-4 {
@@ -125,6 +50,7 @@ h3 {
 .col-1-5 {
   width: calc(100% / 5);
 }
+
 img {
   max-width: 100%;
 }
@@ -133,20 +59,8 @@ img {
   margin-left: 1rem;
 }
 
-.ml-3 {
-  margin-left: 3rem;
-}
-
 .ml-4 {
   margin-left: -4rem;
-}
-
-.mr-1 {
-  margin-right: 1rem;
-}
-
-.mr-3 {
-  margin-right: 3rem;
 }
 
 .mt-1 {
@@ -157,10 +71,6 @@ img {
   margin-top: 2rem;
 }
 
-.mt-3 {
-  margin-top: 3rem;
-}
-
 .mb-3 {
   margin-bottom: 3rem;
 }
@@ -169,16 +79,8 @@ img {
   margin-bottom: 4rem;
 }
 
-.mb-5 {
-  margin-bottom: 5rem;
-}
-
 .p-2 {
   padding: 2rem;
-}
-
-.p-3 {
-  padding: 3rem;
 }
 
 .pt-2 {
@@ -189,19 +91,12 @@ img {
   padding-top: 3rem;
 }
 
-.pt-4 {
-  padding-top: 4rem;
-}
-
 .pt-5 {
   padding-top: 5rem;
 }
 
 .pt-9 {
   padding-top: 9rem;
-}
-.pl-1 {
-  padding-left: 1rem;
 }
 
 .pl-2 {
@@ -221,16 +116,8 @@ img {
   padding-top: 0.5rem;
 }
 
-.w-40 {
-  width: 40%;
-}
-
 .w-60 {
   width: 60%;
-}
-
-.text-white {
-  color: var(--db-light);
 }
 
 .btn-primary {
@@ -268,11 +155,6 @@ img {
 
 a {
   color: var(--db-link);
-}
-
-input:checked {
-  border: 0.7 solid #0388fc;
-  background-color: #02e4e7cc;
 }
 
 .shadow {
