@@ -38,6 +38,7 @@ nav ul li a {
   padding: 0.3rem 1.25rem;
   height: 2rem;
   margin-top: 1.5rem;
+  border: none;
 }
 
 #start a {
