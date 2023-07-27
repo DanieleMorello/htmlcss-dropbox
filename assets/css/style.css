@@ -51,7 +51,7 @@ nav ul li a {
 /* #region jumbotron */
 #jumbotron {
   background-color: var(--db-secondary);
-  padding-top: 6rem;
+  padding-top: 10rem;
   text-align: center;
   padding-bottom: 2rem;
 }
