@@ -239,7 +239,6 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* padding: 3rem; */
 }
 
 #partners-logo [class^="col-"] {
@@ -319,7 +318,7 @@ nav ul li a {
   display: flex;
 }
 /* #endregion partners-logo */
-
+Delete
 /* #region call-to-action */
 #call-to-action {
   background-color: var(--db-secondary);
